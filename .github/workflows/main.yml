@@ -27,7 +27,7 @@ jobs:
       with:
         username: Oded-B
         password: ${{ secrets.GITHUB_TOKEN }}
-        registry: docker.pkg.github.com/
+        registry: docker.pkg.github.com
         repository: oded-b/k8s-aws-prometheus-cost-exporter
         tags: # optional
         tag_with_ref: true
